@@ -1,6 +1,6 @@
 # android-toolchain
 
-Generate from cmake android toolchain a conan profile/shell environment.
+Generate in the build folder a a conan profile/shell environment from Android cmake toolchain.
 
 Usage:
 cmake -DCMAKE_TOOLCHAIN_FILE=/PATH-TO-ANDROID-SDK/ndk-bundle/build/cmake/android.toolchain.cmake -DANDROID_NDK=/PATH-TO-ANDROID-SDK/ndk-bundle -DCMAKE_BUILD_TYPE=... -DANDROID_ABI=... -DANDROID_PLATFORM=... .../android-toolchain
